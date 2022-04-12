@@ -1,8 +1,6 @@
 import axios from "axios";
 import { React} from "react";
 
-
-var data;
 function calculateHelper(items){
   var sum = 0;
   items.forEach(item => {
